@@ -199,6 +199,7 @@
 
 .contact-map-card {
   padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
 }
 
 .contact-map-heading {
@@ -432,8 +433,16 @@
   color: #fff;
 }
 
-.contact-card {
-  margin-top: -55px;
+.contact-content .contact-card {
+  margin-top: -60px;
+}
+
+.contact-card.contact-details {
+  height: auto;
+}
+
+.contact-card.contact-map-card {
+  height: auto;
 }
 
 .contact-card-intro {
@@ -468,13 +477,15 @@
   margin-top: 1.25rem;
 }
 
+@media (max-width: 991.98px) {
+  .contact-content .contact-card {
+    margin-top: 0;
+  }
+}
+
 @media (max-width: 767.98px) {
   .contact-hero {
     padding: 3.25rem 0 4rem;
-  }
-
-  .contact-card {
-    margin-top: 0;
   }
 
   .contact-hero-actions {
@@ -485,5 +496,11 @@
   .contact-button,
   .contact-phone-button {
     width: 100%;
+  }
+
+  .contact-content .contact-map-footer a {
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 }
