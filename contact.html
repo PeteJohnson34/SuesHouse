@@ -48,46 +48,59 @@
 
     </section>
 
-    <section class="contact-content">
-      <div class="container">
-        <div class="row g-4 g-lg-5 align-items-stretch">
+<section class="contact-content">
+  <div class="container">
+    <div class="row g-4 g-lg-5 align-items-stretch">
 
-          <!-- Contact details -->
-          <div class="col-lg-5">
-            <article class="contact-card contact-details">
-              <div class="card-icon" aria-hidden="true"><i class="bi bi-house-heart"></i></div>
-              <p class="contact-card-eyebrow">Visit or contact us</p>
-              <h2>Find the right support</h2>
-              <p class="contact-card-intro">Please contact us before visiting so we can answer your questions and
-                arrange an appointment where needed.</p>
+      
+      <!-- Contact details -->
+      <div class="col-lg-5">
+        <article class="contact-card contact-details">
+          <div class="card-icon" aria-hidden="true"><i class="bi bi-house-heart"></i></div>
+          <p class="contact-card-eyebrow">Visit or contact us</p>
+          <h2>Find the right support</h2>
+          <p class="contact-card-intro">Please contact us before visiting so we can answer your questions and arrange an appointment where needed.</p>
 
-              <address>
-                <strong>Sue's House</strong><br>
-                10 Dawlish Drive<br>
-                Ilford<br>
-                IG3 9ED
-              </address>
-              <p class="contact-opening-note"><i class="bi bi-info-circle me-2" aria-hidden="true"></i>Usually open
-                Tuesday to Thursday. Please phone before visiting Sue's House unless you have a pre-booked appointment.</p>
+          <address>
+            <strong>Sue's House</strong><br>
+            10 Dawlish Drive<br>
+            Ilford<br>
+            IG3 9ED
+          </address>
+          
+          <p class="contact-opening-note">
+            <i class="bi bi-info-circle me-2" aria-hidden="true"></i>Usually open Tuesday to Thursday. Please phone before visiting Sue's House unless you have a pre-booked appointment.
+          </p>
 
-              <div class="contact-detail">
-                <span class="contact-detail-icon" aria-hidden="true">
-                  <i class="bi bi-telephone"></i>
-                </span>
-                <div>
-                  <span class="contact-detail-label">Telephone</span>
-                  <a href="tel:02085970024" class="contact-phone-link">020 8597 0024</a>
-                  <span class="contact-detail-label contact-email-label">Email</span>
-                  <a href="mailto:info@sueshouse-ilford.org.uk">info@sueshouse-ilford.org.uk</a>
-                </div>
+          <!-- Wrapped contact rows in a flex column layout to keep everything securely inside the container -->
+          <div class="d-flex flex-column gap-4 mt-4">
+            
+            <!-- Telephone Row -->
+            <div class="contact-detail d-flex align-items-start gap-3">
+              <span class="contact-detail-icon" aria-hidden="true">
+                <i class="bi bi-telephone"></i>
+              </span>
+              <div class="d-flex flex-column">
+                <span class="contact-detail-label text-uppercase small text-muted">Telephone</span>
+                <a href="tel:02085970024" class="contact-phone-link fw-bold text-dark text-decoration-none fs-5">020 8597 0024</a>
               </div>
+            </div>
 
+            <!-- Email Row -->
+            <div class="contact-detail d-flex align-items-start gap-3">
+              <span class="contact-detail-icon" aria-hidden="true">
+                <i class="bi bi-envelope"></i> <!-- Added an email envelope icon to match your design system -->
+              </span>
+              <div class="d-flex flex-column">
+                <span class="contact-detail-label contact-email-label text-uppercase small text-muted">Email</span>
+                <a href="mailto:info@sueshouse-ilford.org.uk" class="contact-email-link">info@sueshouse-ilford.org.uk</a>
+              </div>
+            </div>
 
-            </article>
           </div>
 
-
-
+        </article>
+      </div>
 
           <!-- Map <i class="bi bi-geo-alt-fill me-2" aria-hidden="true" style="font-size: 2rem; color: red;"></-->
           <div class="col-lg-7">
